@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+  <img src="./gif/3d-isometric-research-of-statistical-data-and-analytics.gif" alt="">
+  <button id="show-modal">+ Add Todo</button>
+  <div class="modal">
+    <h3 id="show-todo-input">Add Todo</h3>
+    <i id="close-todo-input"></i>
+    <input type="text">
+    <button id="add-todo">Add todo</button>
+  </div>
+  <div class="container">
+    <div id="no-status" class="steps">
+      <h2>No Status</h2>
+      <div id="task-box" class="task" draggable="true">
+        <i id="task-close"></i>
+        <i id="task-done"></i>
+        <span>hello</span>
+      </div>
+    </div>
+    <div id="not-started" class="steps">
+      <h2>Not Started</h2>
+    </div>
+    <div id="in-progress" class="steps">
+      <h2>In Progress</h2>
+    </div>
+    <div id="completed" class="steps">
+      <h2>Completed</h2>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
